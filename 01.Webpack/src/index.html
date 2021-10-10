@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <h1 onclick="showMsg()">hello webpack</h1>
+    <button id="btn">webpack是什么</button></br>
+    <a href="index.html">首页</a>
+    <a href="about.html">关于我们 </a>
+    <p class="web-font">这一分钟，你和我在一起，因为你，我会记得那一分钟。从现在开始，我们就是一分钟的朋友。这是事实，你改变不了，因为已经完成了。</p>
+    <p class="web-font">这一分钟，你和我在一起，因为你，我会记得那一分钟。从现在开始，我们就是一分钟的朋友。这是事实，你改变不了，因为已经完成了。</p>
+    <p class="web-font">这一分钟，你和我在一起，因为你，我会记得那一分钟。从现在开始，我们就是一分钟的朋友。这是事实，你改变不了，因为已经完成了。</p>
+
+    <!-- 在html页面插入的图片在打包时需要使用html-loader，注意html-loader会和htmlWebpackPlugin冲突 -->
+    <!-- <img src="./images/bear.jpeg" alt=""> -->
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
